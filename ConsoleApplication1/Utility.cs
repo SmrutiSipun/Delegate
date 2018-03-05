@@ -9,6 +9,7 @@ namespace ConsoleApplication1
     delegate int transformer(int n);
     class Utility
     {
+        int check = 0;
         public static void transform(int[] nosArr, transformer trans)
         {
             for(int i = 0; i < nosArr.Length; i++)
