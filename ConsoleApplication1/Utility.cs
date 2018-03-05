@@ -10,6 +10,7 @@ namespace ConsoleApplication1
     class Utility
     {
         int check = 0;
+        int test = 1;
         public static void transform(int[] nosArr, transformer trans)
         {
             for(int i = 0; i < nosArr.Length; i++)
